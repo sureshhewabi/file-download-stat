@@ -1,0 +1,16 @@
+
+/* Highlight Section Headers ("Get Started", "Workflow", etc.) */
+.md-sidebar--primary .md-nav__item .md-nav__link[for] {
+    font-size: 1rem;          /* Increase font size */
+    font-weight: bold;        /* Make it bold */
+    color: #009688 !important; /* Use a noticeable color */
+}
+
+/* Add icons before navigation section titles */
+.md-sidebar--primary .md-nav__title::before {
+    font-family: "Font Awesome 6 Free";  /* Use Font Awesome */
+    font-weight: 900;  /* Required for solid icons */
+    content: "\f02d"; /* Default: Book icon (📖) */
+    margin-right: 8px; /* Space between icon and text */
+    color: #009688; /* Icon color */
+}
